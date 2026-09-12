@@ -1,4 +1,4 @@
-# AM TECH — Voice Companion
+#👑 AM TECH — Voice Companion
 
 A modern AI voice companion project developed and branded as **AM TECH**.
 
@@ -11,7 +11,7 @@ A modern AI voice companion project developed and branded as **AM TECH**.
 - **Developer:** ADITYA
 - **Credit:** Designed and Developed by AM TECH
 
-## Features
+##✨ Features
 
 - AI-powered conversational experience
 - Voice interaction
@@ -75,7 +75,7 @@ npm run start
 
 Use the scripts defined in `package.json` if they differ from the commands above.
 
-## Project Structure
+## 📂 Project Structure
 
 The exact structure may vary depending on the included source code. Common folders/files include:
 
@@ -90,7 +90,7 @@ AM TECH/
 └── README.md            # Project documentation
 ```
 
-## Customization
+##🎨 Customization
 
 You can customize:
 
