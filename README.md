@@ -1,4 +1,4 @@
-#👑 AM TECH — Voice Companion
+##👑 AM TECH — Voice Companion
 
 A modern AI voice companion project developed and branded as **AM TECH**.
 
