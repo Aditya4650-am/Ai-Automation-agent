@@ -8,8 +8,7 @@ A modern AI voice companion project developed and branded as **AM TECH**.
 
 ### Branding
 
-- **Project Name:** AM TECH
-- **Developer:** AM TECH
+- **Developer:** ADITYA
 - **Credit:** Designed and Developed by AM TECH
 
 ## Features
