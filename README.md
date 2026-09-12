@@ -1,4 +1,4 @@
-##👑 AM TECH — Voice Companion
+👑 AM TECH — Voice Companion
 
 A modern AI voice companion project developed and branded as **AM TECH**.
 
@@ -11,7 +11,7 @@ A modern AI voice companion project developed and branded as **AM TECH**.
 - **Developer:** ADITYA
 - **Credit:** Designed and Developed by AM TECH
 
-##✨ Features
+✨ Features
 
 - AI-powered conversational experience
 - Voice interaction
