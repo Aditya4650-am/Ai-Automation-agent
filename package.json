@@ -1,0 +1,51 @@
+{
+  "name": "AM TECH-live",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "desktop:win": "npm run build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "electron": "^32.2.5",
+    "electron-builder": "^25.1.8"
+  },
+  "main": "electron-main.cjs",
+  "build": {
+    "appId": "com.AM TECH.voice",
+    "productName": "AM TECH Voice Companion",
+    "files": [
+      "dist/**/*",
+      "electron-main.cjs",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "AM TECH-Voice-Companion-${version}-Windows.exe"
+    }
+  }
+}

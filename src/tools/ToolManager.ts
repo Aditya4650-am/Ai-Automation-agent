@@ -1,0 +1,2 @@
+export const toolDeclarations=[{functionDeclarations:[{name:'openWebsite',description:'Open a website when the user explicitly asks to visit it.',parameters:{type:'OBJECT',properties:{url:{type:'STRING',description:'Fully qualified website URL'}},required:['url']}}]}];
+export class ToolManager { async execute(name:string,args:Record<string,unknown>){if(name==='openWebsite'){let url=String(args.url||'');if(!/^https?:\/\//.test(url))url=`https://${url}`;window.open(url,'_blank','noopener,noreferrer');return {opened:url}}return {error:`Unknown tool: ${name}`}} }
